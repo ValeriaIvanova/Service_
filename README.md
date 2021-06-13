@@ -8,7 +8,7 @@
 Логическое проектирование базы данных
 ![ссылка на картинку](lab2.png)
 # LAB_3
-[Физическое проектирование базы данных] (https://github.com/ValeriaIvanova/Service_/tree/master/lab%203)
+[Физическое проектирование базы данных](https://github.com/ValeriaIvanova/Service_/tree/master/lab%203)
 ![ссылка на картинку](LAB3.png)
 # LAB_4
 # LAB_5
