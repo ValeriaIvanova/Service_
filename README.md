@@ -17,4 +17,6 @@
 
 # LAB_6_7
 [Взаимодействие с БД из приложения](https://github.com/ValeriaIvanova/Service_/tree/master/lab%206-7/tireshop-master/tireshop-master)
+![](site.png) 
 # Coursework
+[Курсовая работа](https://github.com/ValeriaIvanova/Service_/blob/master/Курсовая_бд_ИвановаВА_263.docx)
