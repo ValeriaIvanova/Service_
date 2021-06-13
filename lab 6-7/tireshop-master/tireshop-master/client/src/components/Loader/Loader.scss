@@ -1,0 +1,83 @@
+//$color1: #ffeb3b;
+//$color2: #4eb5ae;
+//$color3: #ff5722;
+
+// DLP colors
+//$color1: #E90E0E;
+//$color2: #912124;
+//$color3: #224F32;
+
+// ATL colors
+//$color1: #DE732C;
+//$color2: #142960;
+//$color3: #DCE8F3;
+
+
+
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  width: 42px;
+  justify-content: center;
+  margin: 0 auto;
+  transform: scale(.6);
+  .tyre{
+    position: relative;
+    animation: jump .8s cubic-bezier(0.7, 0.31, 1, 1.89) infinite alternate;
+  }
+  svg{
+    fill: black;
+    width:100px;
+    animation: roll .8s linear 0.2s infinite;
+
+  }
+  .shade{
+    height: 5px;
+    width: 50px;
+    margin-top: 33px;
+    background: black;
+    animation: stretch .8s cubic-bezier(1, 0.54, 0.77, 1.38) infinite alternate;
+    margin-left: 23px;
+  }
+
+
+}
+
+@keyframes roll {
+  0% {
+    transform: rotateZ(0deg)
+  }
+
+  100% {
+    transform: rotateZ(90deg)
+  }
+}
+@keyframes stretch {
+  0% {
+    transform: scaleX(1)
+  }
+  70%{transform:scaleX(1)}
+  100% {
+    transform: scaleX(1.3)
+  }
+}
+@keyframes jump {
+  0% {
+    transform: scaleY(1) translateY(0)
+  }
+  10%{transform: scaleY(1.05) }
+  100% {
+    transform: scaleY(.90) translateY(40px)
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleY(0);
+  }
+  70%{transform:scaleX(0)}
+  100% {
+    transform: scaleY(1);
+  }
+}
