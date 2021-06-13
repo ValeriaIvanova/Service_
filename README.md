@@ -1,6 +1,6 @@
 # Service_
 # LAB_1 
-(image.png)
+![ссылка на картинку](image.png)
 # LAb_2
 # LAB_3
 # LAB_4
