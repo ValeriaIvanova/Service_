@@ -16,5 +16,5 @@
 [Индексы, хранимые процедуры, представления](https://github.com/ValeriaIvanova/Service_/blob/master/lab5.sql)
 
 # LAB_6_7
-Взаимодействие с БД из приложения
+[Взаимодействие с БД из приложения](https://github.com/ValeriaIvanova/Service_/tree/master/lab%206-7/tireshop-master/tireshop-master)
 # Coursework
